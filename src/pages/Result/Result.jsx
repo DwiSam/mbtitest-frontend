@@ -23,7 +23,13 @@ const ResultPage = ({ result }) => {
         <Navbar />
         <div className="resultPage">
           <div className="bg">
-            <img src={BG} alt="bg" width={"1444"} height={"1100"} />
+            <img
+              className="bg"
+              src={BG}
+              alt="bg"
+              width={"1444"}
+              height={"1100"}
+            />
           </div>
           <div className="resultSection">
             <div className="intro-user-result">

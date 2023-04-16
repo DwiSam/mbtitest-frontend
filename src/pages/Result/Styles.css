@@ -187,3 +187,11 @@
   list-style-type: disc;
   padding: 0rem 3rem;
 }
+
+/*untuk layar device berukuran kecil*/
+@media (max-width: 481px) {
+  .bg {
+    width: 100%;
+    height: 530px;
+  }
+}

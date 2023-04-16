@@ -65,6 +65,7 @@
   .hero {
     padding: 0;
     height: 32rem;
+    margin: 0 5.5rem 4rem;
   }
 
   .i-left {
@@ -87,7 +88,7 @@
 
   .hero-logo {
     height: 210px;
-    width: 260px;
+    width: 240px;
   }
 
   .btn-primary {

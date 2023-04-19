@@ -26,6 +26,10 @@
   color: var(--black);
 }
 
+.footer-desc {
+  width: 277px;
+}
+
 @media (max-width: 481px) {
   .main-footer {
     width: 100%;

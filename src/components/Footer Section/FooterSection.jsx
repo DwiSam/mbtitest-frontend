@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="logo-footer">Career Paths</div>
             </Navbar.Brand>
             <ul className="list-unstyled">
-              <p style={{ color: "#000000" }}>
+              <p className="footer-desc" style={{ color: "#000000" }}>
                 Website rekomendasi karier pekerjaan IT berdasarkan tes MBTI
               </p>
             </ul>

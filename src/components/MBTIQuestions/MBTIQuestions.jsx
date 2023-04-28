@@ -26,13 +26,7 @@ const MBTIQuestion = ({ question, onAnswerSelect, onNextQuestion }) => {
       <>
         <div className="test">
           <div className="bg">
-            <img
-              className="bg"
-              src={BG}
-              alt="bg"
-              width={"1444"}
-              height={"700"}
-            />
+            <img className="bg" src={BG} alt="bg" height={"700"} />
           </div>
           <p className="test-title">Jawab Sesuai Dengan Diri Anda!</p>
           <p className="test-subtitle">

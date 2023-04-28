@@ -3,10 +3,14 @@
   height: 150rem;
 }
 
+.bg {
+  width: 100%;
+}
+
 .resultSection {
   position: absolute;
   width: 1150px;
-  height: 905px;
+  height: 744px;
   left: 50%;
   transform: translate(-50%);
   top: 124px;
@@ -14,12 +18,6 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   z-index: 2;
-}
-
-.final-icon {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
 }
 
 .intro-user-result {
@@ -35,7 +33,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: 270px;
+  top: 30px;
   font-weight: 600;
   font-size: 26px;
   line-height: 31px;
@@ -46,7 +44,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: 260px;
+  top: 22px;
   width: 670px;
   margin-top: 4rem;
   font-weight: 600;
@@ -60,7 +58,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: 405px;
+  top: 172px;
   font-weight: 600;
   font-size: 20px;
   line-height: 19px;
@@ -73,7 +71,7 @@
   width: 400px;
   height: 31px;
   margin-left: 5rem;
-  top: 467px;
+  top: 235px;
   font-weight: 600;
   font-size: 26px;
   line-height: 31px;
@@ -84,7 +82,7 @@
   position: absolute;
   margin: 4rem;
   height: 227px;
-  top: 450px;
+  top: 220px;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -130,10 +128,20 @@
   color: #000000;
 }
 
+.title-jobSection {
+  justify-content: center;
+  color: var(--black);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
 .jobSection {
   position: relative;
   height: 31px;
-  top: 1132px;
+  top: 1002px;
 }
 
 .jobs-box {
@@ -146,6 +154,7 @@
   border-radius: 10px;
   display: flex;
   margin-top: 3rem;
+  height: 582px;
 }
 
 .title-job-box {

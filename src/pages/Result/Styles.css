@@ -1,6 +1,6 @@
 .resultPage {
   width: 100%;
-  height: 150rem;
+  height: 96rem;
 }
 
 .bg {
@@ -10,7 +10,7 @@
 .resultSection {
   position: absolute;
   width: 1150px;
-  height: 744px;
+  height: 480px;
   left: 50%;
   transform: translate(-50%);
   top: 124px;
@@ -91,43 +91,6 @@
   list-style-type: disc;
 }
 
-.matkulSection {
-  position: relative;
-  height: 31px;
-  top: 1848px;
-}
-.matkul-category1 {
-  margin-top: 38px;
-  justify-content: center;
-  display: flex;
-}
-
-.matkul-category2 {
-  margin-top: 5px;
-  justify-content: center;
-  display: flex;
-  margin-bottom: 5rem;
-}
-
-.matkul-category-card {
-  width: 272px;
-  height: 135px;
-  margin: 0.5rem;
-  background: #ffffff;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-}
-
-.matkul-title {
-  padding: 2.7rem 1.5rem;
-  height: 48px;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #000000;
-}
-
 .title-jobSection {
   justify-content: center;
   color: var(--black);
@@ -141,7 +104,7 @@
 .jobSection {
   position: relative;
   height: 31px;
-  top: 1002px;
+  top: 700px;
 }
 
 .jobs-box {
@@ -153,7 +116,7 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   display: flex;
-  margin-top: 3rem;
+  margin-top: 1rem;
   height: 582px;
 }
 
@@ -201,7 +164,7 @@
 @media (max-width: 481px) {
   .resultPage {
     width: 100%;
-    height: 192rem;
+    height: 140rem;
   }
 
   .bg {
@@ -212,7 +175,7 @@
   .resultSection {
     position: absolute;
     width: 340px;
-    height: 1010px;
+    height: 700px;
     left: 50%;
     transform: translate(-50%);
     top: 124px;
@@ -298,7 +261,7 @@
   .jobSection {
     position: relative;
     height: 31px;
-    top: 1132px;
+    top: 843px;
   }
 
   .title-jobSection {
@@ -320,8 +283,8 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     display: flex;
-    margin-top: 3rem;
-    height: 60rem;
+    margin-top: 1rem;
+    height: 68rem;
   }
 
   .title-job-box {
@@ -357,55 +320,5 @@
     color: #000000;
     list-style-type: disc;
     padding: 0rem 3rem;
-  }
-
-  .matkulSection {
-    position: relative;
-    height: 31px;
-    top: 2278px;
-  }
-
-  .title-matkulSection {
-    justify-content: center;
-    color: var(--black);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 31px;
-    text-align: center;
-  }
-
-  .matkul-category1 {
-    margin-top: 38px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .matkul-category2 {
-    margin-top: 5px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5rem;
-  }
-
-  .matkul-category-card {
-    width: 272px;
-    height: 135px;
-    margin: 0.5rem;
-    background: #ffffff;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-  }
-
-  .matkul-title {
-    padding: 2.7rem 1.5rem;
-    height: 48px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
   }
 }

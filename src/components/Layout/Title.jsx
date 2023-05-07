@@ -4,7 +4,7 @@ const Title = ({ children, title }) => {
   return (
     <>
       <Helmet>
-        <title>{title ? `Career Paths | ${title}` : "Career Paths"}</title>
+        <title>{title ? `${title} | Career Paths ` : "Career Paths"}</title>
       </Helmet>
 
       <main>{children}</main>

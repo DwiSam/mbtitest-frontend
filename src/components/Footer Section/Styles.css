@@ -37,10 +37,10 @@
   }
 
   .logo-footer {
-    margin: 1rem 0rem;
+    margin: 0.2rem 0rem;
     width: 300px;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 48px;
     color: var(--blue);
   }

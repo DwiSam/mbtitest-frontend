@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Styles.css";
@@ -8,6 +8,7 @@ import LoginIc from "../../assets/Images/loginreg.png";
 import EmailIc from "../../assets/Images/mail-ic.svg";
 import PwdIc from "../../assets/Images/password-ic.svg";
 import Eye from "../../assets/Images/eye-ic.svg";
+import EyeC from "../../assets/Images/eyeC.svg";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { Link } from "react-router-dom";
@@ -17,6 +18,9 @@ const LoginPage = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  const [showPassword, setShowPassword] = useState(false);
+
   return (
     <Title title="Login">
       <>
@@ -51,7 +55,18 @@ const LoginPage = () => {
                   type="password"
                   placeholder="Password"
                 />
-                <img className="show-pwd" src={Eye} alt={Eye} />
+                <button
+                  className="show-pwd-ic"
+                  onClick={() =>
+                    setShowPassword((showPassword) => !showPassword)
+                  }
+                >
+                  {showPassword ? (
+                    <img className="show-pwd" src={Eye} alt={Eye} />
+                  ) : (
+                    <img className="show-pwd" src={EyeC} alt={EyeC} />
+                  )}
+                </button>
               </InputGroup>
             </InputGroup>
             <div className="form-check">

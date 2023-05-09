@@ -102,19 +102,6 @@
 }
 
 .password-register-form {
-  width: 395px;
-  height: 60px;
-  margin: 1rem 3rem;
-  top: -5rem;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #d9b9c2;
-  border: 1px solid #36c8f6;
-  border-radius: 10px;
-}
-
-.password-register-form {
   width: 188px;
   height: 60px;
   margin: 1rem 3rem;
@@ -155,7 +142,7 @@
   font-size: 20px;
 }
 
-.create-account {
+.login-account {
   position: absolute;
   top: 30rem;
   margin: 0rem !important;
@@ -166,4 +153,104 @@
   width: 279px;
   transform: translate(-50%, -50%);
   color: #000000;
+}
+
+.show-pwd-ic {
+  border-radius: 10px;
+}
+
+.show-pwd-ic:hover {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+@media (max-width: 481px) {
+  .register {
+    margin: 0rem;
+    padding-top: 0rem;
+    justify-content: center;
+    display: grid;
+    height: 1094px;
+  }
+
+  .register-logo {
+    position: absolute;
+    width: 213px;
+    height: 168px;
+    left: 50%;
+    top: 97px;
+    transform: translate(-50%);
+  }
+
+  .register-box {
+    position: absolute;
+    width: 340px;
+    left: 50%;
+    top: 292px;
+    transform: translate(-50%);
+    height: 688px;
+    margin-left: 0rem;
+    background: #ffffff;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+  }
+
+  .loginreg-sub-title {
+    justify-content: center;
+    margin: 5px 9px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .name-register-form {
+    width: 275px;
+    height: 60px;
+    margin: 1rem 2rem;
+  }
+
+  .name2-register-form {
+    width: 275px;
+    height: 60px;
+    margin: 1rem 2rem;
+    top: 0rem;
+    left: 0px;
+  }
+
+  .email-register-form {
+    width: 275px;
+    height: 60px;
+    margin: 1rem 2rem;
+    top: 0rem;
+    left: 0px;
+  }
+
+  .password-register-form {
+    width: 275px;
+    height: 60px;
+    margin: 1rem 2rem;
+    top: 0rem;
+    left: 0px;
+  }
+
+  .password-confirm-register-form {
+    width: 275px;
+    height: 60px;
+    margin: 1rem 2rem;
+    top: 0rem;
+    left: 0px;
+  }
+
+  .btn-daftar {
+    width: 275px;
+    height: 60px;
+    margin: 1rem 2rem;
+    top: 0rem;
+    left: 0px;
+  }
+
+  .login-account {
+    top: 40rem;
+  }
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Styles.css";
@@ -9,6 +9,7 @@ import UsernameIc from "../../assets/Images/username-ic.svg";
 import EmailIc from "../../assets/Images/mail-ic.svg";
 import PwdIc from "../../assets/Images/password-ic.svg";
 import Eye from "../../assets/Images/eye-ic.svg";
+import EyeC from "../../assets/Images/eyeC.svg";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { Link } from "react-router-dom";
@@ -18,6 +19,10 @@ const RegisterPage = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  const [showPassword, setShowPassword] = useState(false);
+  const [showCPassword, setShowCPassword] = useState(false);
+
   return (
     <Title title="Register">
       <>
@@ -72,7 +77,18 @@ const RegisterPage = () => {
                   type="password"
                   placeholder="Password"
                 />
-                <img className="show-pwd" src={Eye} alt={Eye} />
+                <button
+                  className="show-pwd-ic"
+                  onClick={() =>
+                    setShowPassword((showPassword) => !showPassword)
+                  }
+                >
+                  {showPassword ? (
+                    <img className="show-pwd" src={Eye} alt={Eye} />
+                  ) : (
+                    <img className="show-pwd" src={EyeC} alt={EyeC} />
+                  )}
+                </button>
               </InputGroup>
             </InputGroup>
             <InputGroup className="password-confirm-register-form">
@@ -83,13 +99,24 @@ const RegisterPage = () => {
                   type="password"
                   placeholder="Konfirmasi"
                 />
-                <img className="show-pwd" src={Eye} alt={Eye} />
+                <button
+                  className="show-pwd-ic"
+                  onClick={() =>
+                    setShowCPassword((showCPassword) => !showCPassword)
+                  }
+                >
+                  {showCPassword ? (
+                    <img className="show-pwd" src={Eye} alt={Eye} />
+                  ) : (
+                    <img className="show-pwd" src={EyeC} alt={EyeC} />
+                  )}
+                </button>
               </InputGroup>
             </InputGroup>
 
             <button className="btn-daftar">Daftar Sekarang</button>
 
-            <p className="create-account">
+            <p className="login-account">
               Sudah Punya Akun?{" "}
               <span style={{ fontWeight: "bold", color: "#000000" }}>
                 <Link to="/login" style={{ textDecoration: "none" }}>

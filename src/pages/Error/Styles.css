@@ -27,18 +27,66 @@
 
 .error-ic {
   height: 300px;
-  margin: 3rem 8rem;
+  margin-top: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .button-back {
   position: absolute;
   width: 183.11px;
   height: 48px;
-  left: 628.99px;
+  left: 50%;
+  transform: translate(-50%);
   top: 530px;
   background: #36c8f6;
   border: 1px solid #36c8f6;
   border-radius: 10px;
   font-weight: 500;
   font-size: 18px;
+}
+
+@media (max-width: 481px) {
+  .error-page {
+    height: 480px;
+  }
+
+  .error-title {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 22rem;
+    font-weight: 600;
+    font-size: 1.8rem !important;
+    line-height: 44px;
+    text-align: center;
+    padding: 0rem !important;
+  }
+
+  .intro-error-subtitle {
+    margin-top: 5rem;
+    justify-content: center;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    line-height: 22px;
+    transform: translate(-50%);
+    padding: 0rem !important;
+  }
+
+  .error-ic {
+    height: 200px;
+    margin-top: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .button-back {
+    position: absolute;
+    width: 170px;
+    top: 510px;
+  }
 }

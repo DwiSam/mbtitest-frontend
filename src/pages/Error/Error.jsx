@@ -1,7 +1,7 @@
 import React from "react";
 import "./Styles.css";
 import { Link, useLocation } from "react-router-dom";
-import FinalIC from "../../assets/Images/final-ic.png";
+import ErrorIc from "../../assets/Images/error-ic.png";
 import Title from "../../components/Layout/Title";
 
 const Error = () => {
@@ -12,7 +12,7 @@ const Error = () => {
         <p className="error-title">404 | Not Found</p>
         <p className="intro-error-subtitle">
           Maaf, halaman <code>{location.pathname}</code> tidak ditemukan.
-          <img className="error-ic" src={FinalIC} alt="final-ic" />
+          <img className="error-ic" src={ErrorIc} alt="final-ic" />
         </p>
 
         <button className="button-back">

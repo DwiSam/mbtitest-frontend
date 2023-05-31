@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Styles.css";
-import Modal from "react-bootstrap/Modal";
+import JobModal from "../Job Modal/JobModals";
+import jobData from "../../data/Jobs/JobsData";
 import webdev from "../../assets/Images/webdev.png";
 import compsyst from "../../assets/Images/compsyst.png";
 import sofdev from "../../assets/Images/softdev.png";
@@ -15,11 +16,26 @@ import compnet from "../../assets/Images/compnet.png";
 import netcomp from "../../assets/Images/netcomp.png";
 
 const JobSection = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  AOS.init({ duration: 1000 });
 
-  const [show, setShow] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [modalContent, setModalContent] = useState({
+    title: "",
+    description: "",
+    tasks: [],
+    skills: "",
+  });
+
+  const handleShowModal = (title, description, tasks, skills) => {
+    setModalContent({
+      title,
+      description,
+      tasks,
+      skills,
+    });
+    setShowModal(true);
+  };
+
   return (
     <div className="job-section">
       <p className="title-job-section">
@@ -39,7 +55,17 @@ const JobSection = () => {
             Web developers membuat dan memelihara situs web. Desainer digital
             mengembangkan, membuat, dan menguji tata letak situs web...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[0].title,
+                jobData[0].description,
+                jobData[0].tasks,
+                jobData[0].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -56,7 +82,17 @@ const JobSection = () => {
             Mempelajari sistem prosedur komputer organisasi dan merancang
             peningkatannya. membantu organisasi beroperasi...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[1].title,
+                jobData[1].description,
+                jobData[1].tasks,
+                jobData[1].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -71,7 +107,17 @@ const JobSection = () => {
             Membuat aplikasi komputer yang memungkinkan pengguna melakukan tugas
             tertentu dan sistem yang ...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[2].title,
+                jobData[2].description,
+                jobData[2].tasks,
+                jobData[2].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -87,7 +133,17 @@ const JobSection = () => {
             Merencanakan dan melaksanakan langkah-langkah keamanan untuk
             melindungi jaringan, sistem komputer organisasi dan...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[3].title,
+                jobData[3].description,
+                jobData[3].tasks,
+                jobData[3].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -106,7 +162,17 @@ const JobSection = () => {
             Computer programmer menulis, memodifikasi, dan menguji kode dan
             skrip yang memungkinkan perangkat lunak dan aplikasi...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[4].title,
+                jobData[4].description,
+                jobData[4].tasks,
+                jobData[4].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -122,7 +188,17 @@ const JobSection = () => {
             Membantu pengguna komputer, organisasi, memelihara jaringan komputer
             atau memberikan bantuan teknis secara langsung...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[5].title,
+                jobData[5].description,
+                jobData[5].tasks,
+                jobData[5].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -137,7 +213,17 @@ const JobSection = () => {
             Membuat atau mengatur sistem untuk menyimpan dan mengamankan
             berbagai data, seperti informasi keuangan dan...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[6].title,
+                jobData[6].description,
+                jobData[6].tasks,
+                jobData[6].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -153,7 +239,17 @@ const JobSection = () => {
             Merancang penggunaan inovatif untuk teknologi baru dan yang sudah
             ada, mempelajari dan memecahkan masalah ...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[7].title,
+                jobData[7].description,
+                jobData[7].tasks,
+                jobData[7].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -172,7 +268,17 @@ const JobSection = () => {
             Merancang dan membangun jaringan komunikasi data, termasuk jaringan
             area lokal (LAN), jaringan area luas (WAN), dan Intranet haru...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[8].title,
+                jobData[8].description,
+                jobData[8].tasks,
+                jobData[8].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
@@ -188,64 +294,30 @@ const JobSection = () => {
             Bertanggung jawab atas pengoperasian jaringan sehari-hari. Mengatur,
             memasang, dan mendukung sistem ...
           </p>
-          <button className="btn-more" onClick={() => setShow(true)}>
+          <button
+            className="btn-more"
+            onClick={() =>
+              handleShowModal(
+                jobData[9].title,
+                jobData[9].description,
+                jobData[9].tasks,
+                jobData[9].skills
+              )
+            }
+          >
             Selengkapnya
           </button>
         </div>
       </div>
 
-      <Modal show={show} onHide={() => setShow(false)} size="lg">
-        <Modal.Header closeButton>
-          <Modal.Title
-            className="job-title"
-            id="example-custom-modal-styling-title"
-          >
-            Web Developer & Digital Designer
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p className="description">
-            Web developers membuat dan memelihara situs web. Desainer digital
-            mengembangkan, membuat, dan menguji tata letak situs web atau
-            antarmuka, fungsi, dan navigasi untuk kegunaannya.
-            <br />
-            <br />
-            <span style={{ color: "#000000", fontWeight: "bold" }}>
-              Tugas & Tanggung Jawab :
-            </span>
-          </p>
-          <div>
-            <ul className="description-points">
-              <li className="description-point">
-                Bertemu dengan klien atau manajemen untuk mendiskusikan
-                kebutuhan, desain, dan fungsionalitas situs web atau antarmuka.
-              </li>
-              <li className="description-point">
-                Membuat dan menguji aplikasi, antarmuka, dan menu navigasi untuk
-                situs web.
-              </li>
-              <li className="description-point">
-                Bekerja dengan desainer grafis dan desainer lain untuk
-                menentukan tata letak situs web.
-              </li>
-              <li className="description-point">
-                Merancang dan mengembangkan grafis dan memelihara situs web.
-                Desainer digital mengembangkan, membuat, dan menguji tata letak
-                situs web atau antarmuka, fungsi, dan navigasi untuk
-                kegunaannya.
-              </li>
-            </ul>
-          </div>
-          <p className="description">
-            <span style={{ color: "#000000", fontWeight: "bold" }}>
-              Keterampilan yang dibutuhkan :
-            </span>
-            <br />
-            HTML CSS, Javascript Framework, Rest Apis, Sql Server, UI/UX, PHP
-            Laravel, Node.
-          </p>
-        </Modal.Body>
-      </Modal>
+      <JobModal
+        show={showModal}
+        onHide={() => setShowModal(false)}
+        title={modalContent.title}
+        description={modalContent.description}
+        tasks={modalContent.tasks}
+        skills={modalContent.skills}
+      />
     </div>
   );
 };

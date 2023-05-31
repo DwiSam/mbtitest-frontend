@@ -436,8 +436,8 @@ const questions = [
     id: 51,
     text: "51. Pilihlah kata (a atau b) yang paling mencerminkan diri Anda",
     options: [
-      { id: 1, text: "a. Perencanaan", type: ["T"] },
-      { id: 2, text: "b. Spontanitas", type: ["F"] },
+      { id: 1, text: "a. Keteraturan", type: ["T"] },
+      { id: 2, text: "b. Kenyamanan", type: ["F"] },
     ],
   },
   {

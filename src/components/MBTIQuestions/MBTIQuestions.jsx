@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Styles.css";
@@ -7,9 +7,7 @@ import Title from "../Layout/Title";
 import BG from "../../assets/Images/bg.png";
 
 const MBTIQuestion = ({ question, onAnswerSelect, onNextQuestion }) => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  AOS.init({ duration: 1000 });
 
   const [currentQuestion, setCurrentQuestion] = useState(1);
 
@@ -26,7 +24,13 @@ const MBTIQuestion = ({ question, onAnswerSelect, onNextQuestion }) => {
       <>
         <div className="test">
           <div className="bg">
-            <img className="bg" src={BG} alt="bg" height={"700"} />
+            <img
+              className="bg"
+              src={BG}
+              alt="bg"
+              width={"1444"}
+              height={"700"}
+            />
           </div>
           <p className="test-title">Jawab Sesuai Dengan Diri Anda!</p>
           <p className="test-subtitle">

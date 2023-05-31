@@ -1,6 +1,6 @@
 .resultPage {
   width: 100%;
-  height: 96rem;
+  height: 108rem;
 }
 
 .bg {
@@ -10,7 +10,7 @@
 .resultSection {
   position: absolute;
   width: 1150px;
-  height: 480px;
+  height: 620px;
   left: 50%;
   transform: translate(-50%);
   top: 124px;
@@ -33,6 +33,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+  width: 479px;
   top: 30px;
   font-weight: 600;
   font-size: 26px;
@@ -103,8 +104,19 @@
 
 .jobSection {
   position: relative;
-  height: 31px;
-  top: 700px;
+  height: 655px;
+  top: 780px;
+}
+
+.jobCarousel {
+  position: relative;
+  height: 747px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: inherit;
 }
 
 .jobs-box {
@@ -117,7 +129,7 @@
   border-radius: 10px;
   display: flex;
   margin-top: 1rem;
-  height: 582px;
+  height: 670px;
 }
 
 .title-job-box {
@@ -164,7 +176,7 @@
 @media (max-width: 481px) {
   .resultPage {
     width: 100%;
-    height: 140rem;
+    height: 193rem;
   }
 
   .bg {
@@ -175,7 +187,7 @@
   .resultSection {
     position: absolute;
     width: 340px;
-    height: 700px;
+    height: 1365px;
     left: 50%;
     transform: translate(-50%);
     top: 124px;
@@ -198,9 +210,11 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 270px;
+    width: 195px;
+    top: 257px;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 20px;
+    text-align: center;
     line-height: 31px;
     color: #000000;
   }
@@ -261,7 +275,31 @@
   .jobSection {
     position: relative;
     height: 31px;
-    top: 843px;
+    top: 1474px;
+  }
+
+  .jobCarousel {
+    position: relative;
+    height: 1377px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
   }
 
   .title-jobSection {
@@ -284,7 +322,7 @@
     border-radius: 10px;
     display: flex;
     margin-top: 1rem;
-    height: 68rem;
+    height: 82rem;
   }
 
   .title-job-box {

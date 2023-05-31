@@ -199,7 +199,7 @@
 
   .intro-user-result {
     position: absolute;
-    width: 615px;
+    width: 100%;
     height: 53px;
     left: 50%;
     transform: translate(-50%);
@@ -210,12 +210,13 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    width: 195px;
+    width: 100%;
     top: 257px;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
     line-height: 31px;
+    padding: 0rem 0.5rem;
     color: #000000;
   }
 
@@ -224,7 +225,7 @@
     left: 50%;
     transform: translate(-50%);
     top: 260px;
-    width: 314px;
+    width: 100%;
     margin-top: 4rem;
     font-weight: 500;
     font-size: 20px;
@@ -242,7 +243,8 @@
     font-size: 20px;
     line-height: 19px;
     text-align: center;
-    width: 260px;
+    width: 100%;
+    padding: 0rem 0.5rem;
     color: #000000;
   }
 
@@ -250,13 +252,14 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 225px;
+    top: 226px;
     font-weight: 600;
-    font-size: 26px;
-    line-height: 31px;
+    font-size: 20px;
+    line-height: 19px;
     text-align: center;
+    width: 100%;
     color: #000000;
-    margin-left: 0rem !important;
+    margin-left: 0rem;
   }
 
   .characteristic-points {

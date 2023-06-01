@@ -1,0 +1,72 @@
+.content-3-1 {
+  padding: 7rem 2rem;
+  height: 63rem;
+}
+
+.content-3-1 .img-hero {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.content-3-1 .right-column {
+  width: 100%;
+}
+
+.content-3-1 .title-text {
+  margin-bottom: 1rem;
+  letter-spacing: -0.025em;
+  color: #121212;
+}
+
+.content-3-1 .title-caption {
+  margin-bottom: 1.25rem;
+  color: #121212;
+}
+
+.content-3-1 .circle {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1.25rem;
+  border-radius: 9999px;
+  background-color: #36c8f6;
+}
+
+.content-3-1 .text-caption {
+  letter-spacing: 0.025em;
+  color: #565656;
+  text-align: justify;
+  text-indent: 2rem;
+  padding-right: 3rem;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+@media (max-width: 481px) {
+  .content-3-1 {
+    padding: 3rem 2rem;
+    height: 105rem;
+  }
+
+  .content-3-1 .img-hero {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .content-3-1 .right-column {
+    width: 100%;
+  }
+
+  .content-3-1 .circle {
+    margin-right: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .content-3-1 .text-caption {
+    letter-spacing: 0.025em;
+    color: #565656;
+    text-align: justify;
+    text-indent: 2rem;
+    padding: 1rem;
+    font-weight: 550;
+    font-size: 18px;
+  }
+}

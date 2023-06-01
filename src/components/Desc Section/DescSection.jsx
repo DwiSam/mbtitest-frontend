@@ -1,6 +1,5 @@
 import React from "react";
 import "./Styles.css";
-
 import mbti from "../../assets/Images/mbti-ic.png";
 
 const DescSection = () => {

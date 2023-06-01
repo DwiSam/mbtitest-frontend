@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="col">
             <h5 style={{ color: "#000000", fontWeight: "bold" }}>Company</h5>
             <ul className="list-unstyled">
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/about-us">
                 Tentang Kami
               </Nav.Link>
 

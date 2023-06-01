@@ -177,6 +177,11 @@
     height: 315px;
   }
 
+  .job-category-card:hover {
+    box-shadow: 0px 4px 10px 0px rgba(40, 40, 124, 0.7);
+    transform: none;
+  }
+
   .btn-more {
     margin-right: 1rem;
     margin-left: 4.5rem;

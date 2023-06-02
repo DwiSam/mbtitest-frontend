@@ -48,7 +48,7 @@
 }
 
 .show-pwd {
-  margin-right: 1rem;
+  margin: 1.3rem 0.5rem;
 }
 
 .register-input {
@@ -151,6 +151,13 @@
   border-radius: 10px;
   font-weight: 500;
   font-size: 20px;
+}
+
+.btn-daftar:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 10px 0px rgba(40, 40, 124, 0.7);
+  transition: all 0.2s ease 0s;
+  transform: scale(1.05);
 }
 
 .login-account {

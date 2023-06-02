@@ -66,7 +66,7 @@
 .login-input {
   height: 55px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 19px;
   color: black;
   border: 0px none;
@@ -90,7 +90,7 @@
 .form-check {
   position: absolute;
   width: 110px;
-  left: 72px;
+  left: 60px;
   top: 305px;
 }
 
@@ -100,6 +100,16 @@
   line-height: 17px;
   text-align: center;
   color: #000000;
+}
+
+.wrong {
+  position: absolute;
+  left: 12rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: red;
 }
 
 .btn-masuk {
@@ -115,6 +125,13 @@
   border-radius: 10px;
   font-weight: 500;
   font-size: 20px;
+}
+
+.btn-masuk:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 10px 0px rgba(40, 40, 124, 0.7);
+  transition: all 0.2s ease 0s;
+  transform: scale(1.05);
 }
 
 .create-account {
@@ -182,16 +199,23 @@
     left: 0px;
   }
 
+  .wrong {
+    position: absolute;
+    top: 21rem;
+    left: 3rem;
+  }
+
   .btn-masuk {
     width: 275px;
     height: 60px;
     margin: 1rem 2rem;
-    top: 2rem;
+    top: 3rem;
     left: 0px;
   }
 
   .create-account {
-    top: 40rem;
+    position: absolute;
+    top: 26rem;
   }
 
   .form-check {

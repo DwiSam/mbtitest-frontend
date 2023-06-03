@@ -1,14 +1,18 @@
-import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Styles.css";
 import hero from "../../assets/Images/Hero.png";
-import { Link } from "react-router-dom";
 
 const Intro = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  AOS.init({ duration: 1000 });
+
+  let navigate = useNavigate();
+  const handleGetStarted = () => {
+    navigate("/intro-test");
+    window.location.reload();
+  };
+
   return (
     <div className="hero" data-aos="fade-down">
       <div className="i-left">
@@ -25,13 +29,12 @@ const Intro = () => {
           </p>
         </div>
         <div className="button">
-          <button className="btn-primary">
-            <Link
-              to="/intro-test"
-              style={{ textDecoration: "none", color: "#ffffff" }}
-            >
-              Get Started
-            </Link>
+          <button
+            className="btn-primary"
+            onClick={handleGetStarted}
+            style={{ textDecoration: "none", color: "#ffffff" }}
+          >
+            Get Started
           </button>
           <nav className="btn-details">
             <a href="#description">Learn More</a>

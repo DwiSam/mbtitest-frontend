@@ -76,16 +76,17 @@ const AboutUs = () => {
                     Rekomendasi Mata Kuliah
                   </h4>
                   <p className="text-caption">
-                    Tidak hanya pekerjaan, Anda juga akan diberikan mata kuliah
-                    yang harus Anda ambil untuk menggapai pekerjaan Anda. Selain
-                    itu juga dijelaskan skill apa saja yang mendukung pekerjaan
-                    tersebut.
+                    Tidak hanya pekerjaan, Anda juga akan diberikan rekomendasi
+                    mata kuliah yang harus Anda ambil untuk menggapai pekerjaan
+                    Anda. Selain itu juga dijelaskan skill apa saja yang
+                    mendukung pekerjaan tersebut.
                   </p>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+
         <Footer />
       </>
     </Title>

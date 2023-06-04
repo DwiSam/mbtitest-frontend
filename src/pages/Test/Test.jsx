@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import MBTIQuestion from "../../components/MBTIQuestions/MBTIQuestions";
 import Result from "../Result/Result";
 import questions from "../../data/Questions/Questions";
-const natural = require("natural");
-const classifier = new natural.BayesClassifier();
 
 const Test = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -23,28 +21,27 @@ const Test = () => {
   };
 
   const calculateMBTI = () => {
-    // Memasukkan data latih ke dalam classifier
-    for (const question of questions) {
-      const options = question.options.map((o) => o.text);
-      const type = question.options.filter((o) => o.type).map((o) => o.type);
+    const score = { I: 0, E: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
 
-      for (const option of options) {
-        classifier.addDocument(option, type.join(" "));
+    // menghitung skor berdasarkan jawaban yang telah dipilih
+    for (const [questionId, answerId] of Object.entries(selectedAnswers)) {
+      const question = questions.find((q) => q.id === parseInt(questionId));
+      const answer = question.options.find((o) => o.id === answerId);
+      if (answer.type) {
+        for (const t of answer.type) {
+          score[t] += 1;
+        }
       }
     }
 
-    // Melatih classifier dengan data latih
-    classifier.train();
+    // menentukan hasil MBTI berdasarkan skor yang dihitung
+    let type = "";
+    type += score.I >= score.E ? "I" : "E";
+    type += score.S >= score.N ? "S" : "N";
+    type += score.T >= score.F ? "T" : "F";
+    type += score.J >= score.P ? "J" : "P";
 
-    // Menghitung hasil MBTI berdasarkan jawaban yang dipilih
-    const selectedOptions = Object.values(selectedAnswers).map(
-      (answerId) =>
-        questions[currentQuestionIndex].options.find((o) => o.id === answerId)
-          .text
-    );
-
-    const result = classifier.classify(selectedOptions.join(" "));
-    setResult(result);
+    setResult(type);
   };
 
   return (

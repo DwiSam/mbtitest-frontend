@@ -52,7 +52,8 @@ const AboutUs = () => {
                   </h4>
                   <p className="text-caption">
                     Dalam proses perancangan tes MBTI kami berdiskusi langsung
-                    dengan psikolog dari Rise Consulting.
+                    dengan psikolog dari Rise Consulting dalam penentuan jenis
+                    pertanyaan dan klasifikasi jenis kepribadiannya.
                   </p>
                 </li>
                 <li className="list-unstyled" style={{ marginBottom: "2rem" }}>
@@ -64,8 +65,14 @@ const AboutUs = () => {
                   </h4>
                   <p className="text-caption">
                     Setelah selesai melakukan tes, Anda akan diberikan
-                    rekomendasi pekerjaan di bidang IT yang sesuai dengan tipe
-                    kepribadian Anda.
+                    rekomendasi pekerjaan di bidang IT berdasarkan{" "}
+                    <a
+                      href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm"
+                      style={{ textDecoration: "none" }}
+                    >
+                      bls.gov
+                    </a>{" "}
+                    yang sesuai dengan tipe kepribadian Anda.
                   </p>
                 </li>
                 <li className="list-unstyled" style={{ marginBottom: "4rem" }}>
@@ -86,7 +93,6 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-
         <Footer />
       </>
     </Title>

@@ -70,7 +70,6 @@ const LoginPage = () => {
         if (response.status === 200) {
           console.log("SUCCESSS");
           navigate("/intro-test");
-          window.location.reload();
           return response.json();
         } else if (response.status === 401) {
           console.log("SOMETHING WENT WRONG");

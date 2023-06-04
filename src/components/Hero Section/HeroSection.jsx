@@ -10,7 +10,6 @@ const Intro = () => {
   let navigate = useNavigate();
   const handleGetStarted = () => {
     navigate("/intro-test");
-    window.location.reload();
   };
 
   return (

@@ -60,6 +60,13 @@
   color: var(--blue);
 }
 
+.btn-more:hover {
+  cursor: pointer;
+  background-color: var(--bright-cyan);
+  border: 1px solid var(--bright-cyan);
+  color: white;
+}
+
 .job-icon {
   width: 52px;
   height: 51px;

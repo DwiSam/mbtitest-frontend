@@ -3,27 +3,31 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          ISTJ adalah sosok yang penuh tanggung jawab dan realistis. Mereka
-          mengambil pendekatam logis untuk mencapai sebuah tujuan. Mereka mampu
-          mengabaikan gangguan untuk fokus pada tugas yang dihadapi dan sering
-          digambarkan sebagai orang yang dapat diandalkan dan dapat dipercaya.
+          ISTJ adalah seorang perencana dan pemantau, memastikan kualitas dapat
+          diprediksi.
         </li>
         <li className="characteristic-point">
-          Mereka adalah perencana sejati, ISTJ suka merencanakan sesuatu dengan
-          matang sebelum melakukannya. Jika terjadi kekacauan di tengah jalan,
-          mereka tidak akan beristirahat sampai solusi untuk masalah itu
-          ditemukan dan semuanya berjalan lurus.
+          Teliti, sistematis, dan hati-hati.
         </li>
         <li className="characteristic-point">
-          Mereka sangat menekankan tradisi dan hukum. Mereka lebih suka
-          mengikuti aturan dan prosedur yang sudah ada sebelumnya. Dalam
-          beberapa kasus, ISTJ dianggap sebagai pribadi yang kaku dan keras
-          dalam mempertahankan struktur.
+          Mengidentifikasi ketidaksesuaian, kelalaian, dan jebakan.
         </li>
         <li className="characteristic-point">
-          Merancang dan mengembangkan grafis dan memelihara situs web. Desainer
-          digital mengembangkan, membuat, dan menguji tata letak situs web atau
-          antarmuka, fungsi, dan navigasi untuk kegunaannya.
+          Berpangkal pada kemampuan administrasi dan regulasi.
+        </li>
+        <li className="characteristic-point">
+          Andal, realistis, dan bijaksana.
+        </li>
+        <li className="characteristic-point">
+          Menjaga sumber daya organisasi, kelompok, keluarga, atau budaya, serta
+          bertahan menuju tujuan tersebut.
+        </li>
+        <li className="characteristic-point">
+          Bersemangat dalam merencanakan dan menyiapkan.
+        </li>
+        <li className="characteristic-point">
+          Menyukai membantu orang lain melalui peran mereka sebagai orang tua,
+          supervisor, rekan tim, dan relawan masyarakat.
         </li>
       </ul>
     </div>
@@ -32,32 +36,26 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Orang dengan kepribadian ISTP berorientasi pada hasil. Ketika ada
-          masalah, mereka ingin cepat memahami penyebab yang mendasarinya dan
-          mencoba beberapa solusi. ISTP adalah sosok yang tenang dan santai
-          terhadap orang lain.
+          ISTP adalah seorang yang menjadi pemecahan masalah yang digerakkan
+          oleh tindakan.
         </li>
         <li className="characteristic-point">
-          ISTP menikmati pengalaman baru dan sering mencari kesenangan yang
-          berisiko. Mereka sering menggeluti hobi yang berisiko seperti
-          bersepeda motor, para-layang, selancar, dan berkuda. Dalam beberapa
-          kasus, mereka memilih karier di bidang-bidang seperti balap, terbang,
-          atau pemadam kebakaran untuk memacu adrenalin.
+          Bakatnya terletak pada kemampuan mengoperasikan berbagai macam alat
+          dan instrumen serta menggunakan kerangka kerja untuk memecahkan
+          masalah.
         </li>
         <li className="characteristic-point">
-          Mereka sangat menekankan tradisi dan hukum. Mereka lebih suka
-          mengikuti aturan dan prosedur yang sudah ada sebelumnya. Dalam
-          beberapa kasus, ISTJ dianggap sebagai pribadi yang kaku dan keras
-          dalam mempertahankan struktur.
+          Pengamat yang tajam terhadap lingkungan, mereka adalah gudang data dan
+          fakta yang relevan untuk menganalisis dan memecahkan masalah.
         </li>
         <li className="characteristic-point">
-          ISTP pandai memikirkan segala masalah dengan segala masalah. Meski
-          begitu banyak orang salah menilai bahwa mereka adalah orang yang
-          dingin dan pendiam.
+          Berkembang dalam situasi yang menantang dan memiliki kebebasan untuk
+          menciptakan solusi cerdas dan melakukan apa pun untuk memperbaiki
+          berbagai hal dan membuatnya berhasil.
         </li>
         <li className="characteristic-point">
-          Mereka lebih suka membuat penilaian berdasarkan kriteria objektif
-          daripada keyakinan atau nilai-nilai pribadi.
+          Bangga dengan keahlian dan kecakapan mereka, yang tampaknya mereka
+          peroleh dengan mudah.
         </li>
       </ul>
     </div>
@@ -66,30 +64,25 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          ISFJ menyukai sebuah struktur dan berusaha untuk mempertahankan
-          struktur yang ada di semua lini kehidupan mereka. walaupun orang
-          dengan tipe kepribadian ini tertutup dan cenderung pendiam, tetapi
-          mereka adalah pengamat yang tajam dan fokus pada orang lain.
+          ISFJ adalah seorang yang melindungi dan merawat, memastikan
+          keselamatan orang-orang yang mereka jaga.
         </li>
         <li className="characteristic-point">
-          Karena mereka sangat perseptif, ISFJ pandai mengingat detail tentang
-          orang lain. Orang-orang dengan tipe kepribadian ini sangat terbiasa
-          dengan emosi dan perasaan orang lain.
+          Kemampuan terletak pada memastikan segala sesuatunya terurus sehingga
+          orang lain bisa berhasil mencapai tujuan mereka.
         </li>
         <li className="characteristic-point">
-          Orang dengan kepribadian ISFJ lebih suka fakta konkret daripada teori
-          abstrak. Oleh karena itu mereka cenderung suka praktek langsung
-          dibanding berteori. Ini juga berarti bahwa mereka biasanya menghargai
-          pelajaran untuk diaplikasikan secara praktis. Mereka cenderung menjadi
-          lebih tertarik pada hal-hal baru ketika mereka dapat melihat dan
-          menghargai bagaimana hal itu dapat memecahkan masalah di dunia nyata.
+          Keinginan untuk melayani kebutuhan individu, sering kali bekerja
+          berjam-jam.
         </li>
         <li className="characteristic-point">
-          Karena ISFJ cenderung menjaga tradisi yang ada, orang menjadi khawatir
-          mereka tidak bisa membawa perubahan. Sementara orang dengan tipe
-          kepribadian ini mungkin tidak cepat berubah, mereka masih bisa
-          beradaptasi. Mereka hanya lebih suka punya waktu untuk memikirkan dan
-          mempersiapkan perubahan besar.
+          Tenang, ramah, penuh hormat, dan sederhana. Berkembang dalam melayani
+          dengan tenang tanpa gembar-gembor.
+        </li>
+        <li className="characteristic-point">
+          Berdedikasi untuk melakukan apa pun yang diperlukan untuk memastikan
+          tempat berlindung dan keselamatan, memperingatkan tentang jebakan dan
+          bahaya, serta mendukung di sepanjang jalan.
         </li>
       </ul>
     </div>
@@ -98,28 +91,29 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Tidak seperti ekstrovert yang mendapatkan energi dari berinteraksi
-          dengan orang lain, introvert justru terkuras energinya saat di sekitar
-          orang lain. Setelah menghabiskan waktu dengan orang, introvert sering
-          menemukan bahwa mereka memerlukan waktu untuk sendirian. Oleh sebab
-          itu, mereka biasanya lebih suka berbaur dengan teman dekat dan anggota
-          keluarga saja.
+          ISFP adalah seorang yang bisa menyusun, menggunakan apa pun yang ada
+          untuk mendapatkan hasil yang harmonis dan estetis.
         </li>
         <li className="characteristic-point">
-          ISFP suka fokus pada detail. Mereka menghabiskan lebih banyak waktu
-          untuk menikmati waktu yang dimiliki daripada mengkhawatirkan masa
-          depan.
+          Kemampuan terletak pada menggabungkan, memvariasikan, dan
+          mengimprovisasi, seringkali dalam seni tetapi juga dalam bisnis dan
+          bidang lainnya.
         </li>
         <li className="characteristic-point">
-          ISFP lebih suka melakukan aksi daripada sekadar “bermimpi”. Mereka
-          tidak menyukai teori-teori abstrak kecuali mereka dapat
-          mengaplikasikannya secara praktis. Mereka lebih suka situasi belajar
-          yang melibatkan pengalaman langsung.
+          Dengan indera mereka yang tajam, mereka menjadi benar-benar terserap
+          dalam aksi saat itu, menemukan apa yang sesuai dengan situasi atau
+          komposisi.
         </li>
         <li className="characteristic-point">
-          ISFP suka membiarkan opsi mereka terbuka, sehingga mereka sering
-          menunda membuat keputusan untuk melihat apakah ada yang berubah atau
-          berjaga jika opsi baru muncul.
+          Bersemangat dalam memiliki kebebasan untuk memvariasikan apa yang
+          mereka lakukan sampai mereka mendapatkan efek yang tepat.
+        </li>
+        <li className="characteristic-point">
+          Mengambil tindakan untuk membantu orang lain dan menunjukkan
+          nilai-nilai.
+        </li>
+        <li className="characteristic-point">
+          Ramah dan peka terhadap penderitaan orang lain.
         </li>
       </ul>
     </div>
@@ -128,26 +122,27 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Mereka adalah introvert alami, orang dengan tipe kepribadian ini mampu
-          membentuk hubungan yang kuat dan bermakna dengan orang lain. Mereka
-          menikmati membantu orang lain, tetapi mereka juga membutuhkan waktu
-          menyendiri untuk mengisi ulang tenaga.
+          INFJ adalah seorang yang mempunyai pandangan ke depan.
         </li>
         <li className="characteristic-point">
-          Dengan rasa intuisi dan pemahaman emosional yang kuat, INFJ dapat
-          berbicara dengan lembut dan empati. Namun bukan berarti mereka adalah
-          sosok penurut. Mereka memiliki prinsip yang kuat dan kemampuan untuk
-          bertindak tegas untuk mencapai apa yang mereka mau.
+          Menggunakan wawasan mereka untuk menghadapi kompleksitas masalah dan
+          orang-orang, seringkali dengan rasa "tahu" yang kuat sebelum orang
+          lain mengetahui diri mereka sendiri.
         </li>
         <li className="characteristic-point">
-          Mereka mencoba memahami dunia pada sisi baik dan sisi buruk untuk
-          menciptakan kondisi yang lebih baik.
+          Bakatnya terletak pada mengembangkan dan membimbing orang lain.
         </li>
         <li className="characteristic-point">
-          Ketika membuat keputusan, mereka lebih menekankan pada masalah pribadi
-          daripada fakta objektif yang ada. Mereka juga suka melakukan kontrol
-          dengan perencanaan, pengorganisasian dan pengambilan keputusan sedini
-          mungkin.
+          Percaya dengan inspirasi dan visi mereka, untuk digunakan membantu
+          orang lain.
+        </li>
+        <li className="characteristic-point">
+          Bersemangat dalam membantu orang lain menyelesaikan dilema pribadi dan
+          etika yang mendalam.
+        </li>
+        <li className="characteristic-point">
+          Pribadi dan kompleks, mereka membawa antusiasme dan industri yang
+          tenang pada proyek-proyek yang menjadi bagian dari visi mereka.
         </li>
       </ul>
     </div>
@@ -156,27 +151,29 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Sifatnya cukup tertutup dan senang kesunyian.
+          INFP adalah seorang yang mempunyai sifat integritas dan advokasi.
         </li>
         <li className="characteristic-point">
-          Karena Introvert, INFP memperoleh energi dengan cara menghabiskan
-          waktu sendirian. Saat mereka berada dalam situasi sosial maka mereka
-          harus banyak mengeluarkan energi.
+          Bakatnya terletak pada membantu orang mengklarifikasi masalah, nilai,
+          dan identitas.
         </li>
         <li className="characteristic-point">
-          Biasanya mereka mengandalkan intuisi dan lebih fokus pada gambaran
-          besar daripada rincian yang mendetail. Mereka bisa sangat teliti
-          tentang hal-hal yang benar-benar mereka sukai.
+          Mendukung apa pun yang memungkinkan pengembangan diri seseorang.
         </li>
         <li className="characteristic-point">
-          INFP menekankan pada perasaan pribadi dan keputusan mereka lebih
-          dipengaruhi oleh kekhawatiran ini daripada oleh informasi yang
-          objektif.
+          Mendorong pertumbuhan dan perkembangan dengan antusiasme yang tenang.
         </li>
         <li className="characteristic-point">
-          Mereka sering menunda saat mengambil keputusan penting, berjaga jaga
-          jika terjadi perubahan situasi. Biasanya mereka mengambil keputusan
-          didasarkan pada nilai-nilai pribadi dan bukan logika.
+          Advokat dan pendukung setia, sangat peduli tentang tujuan mereka dan
+          beberapa orang istimewa.
+        </li>
+        <li className="characteristic-point">
+          Tertarik pada merenungkan misteri kehidupan, kebajikan, dan kejahatan
+          dalam pencarian keselarasan.
+        </li>
+        <li className="characteristic-point">
+          Bersemangat dalam mengatasi konflik, baik dalam diri sendiri maupun
+          antara orang lain, serta membantu orang mencapai pusat diri mereka.
         </li>
       </ul>
     </div>
@@ -185,19 +182,26 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Mereka cenderung introvert dan lebih nyaman bekerja sendiri.
+          INTJ adalah seorang yang merencanakan strategi, membayangkan, dan
+          mengatur.
         </li>
         <li className="characteristic-point">
-          Lebih suka membuat rencana jauh-jauh hari seakan mereka sedang
-          mengendalikan dunia.
+          Kemampuan terletak pada menetapkan tujuan, membuat rencana rinci, dan
+          merancang rencana cadangan.
         </li>
         <li className="characteristic-point">
-          INTJ lebih menekankan logika dan informasi objektif dibanding emosi
-          subjektif.
+          Merancang strategi, memberikan struktur, menjadikan rencana yang
+          kompleks untuk mencapai tujuan jangka panjang yang ditentukan oleh
+          visi yang kuat tentang apa yang diperlukan dalam jangka panjang.
         </li>
         <li className="characteristic-point">
-          Mereka melihat gambaran besar dan suka berfokus pada informasi abstrak
-          daripada detail yang konkret.
+          Bersemangat dalam menerapkan teori dan terbuka terhadap segala ide
+          yang dapat diintegrasikan ke dalam sistem kompleks yang mereka
+          usahakan untuk memahami.
+        </li>
+        <li className="characteristic-point">
+          Mendorong diri mereka sendiri untuk menguasai apa yang dibutuhkan
+          untuk mencapai tujuan.
         </li>
       </ul>
     </div>
@@ -206,23 +210,28 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Sifat mereka tenang, pendiam, dan bijaksana. Sebagai introvert mereka
-          lebih suka bercengkrama dengan kelompok kecil dan teman dekat.
+          INTP adalah seorang yang merancang dan mengkonfigurasi.
         </li>
         <li className="characteristic-point">
-          Ketika menganalisis data dan membuat keputusan, mereka sangat logis
-          dan objektif.
+          Bakatnya terletak pada memahami prinsip-prinsip yang mendasari sesuatu
+          dan mendefinisikan kualitas-kualitas esensialnya.
         </li>
         <li className="characteristic-point">
-          Senang memikirkan konsep teoritis dan senderung menghargai kecerdasan
-          daripada emosi. •
+          Mencoba mendefinisikan dengan tepat dan memberikan keterpaduan pada
+          sistem berdasarkan pola organisasi yang ada secara alami.
+        </li>
+        <li className="characteristic-point">Mudah melihat inkonsistensi.</li>
+        <li className="characteristic-point">
+          Menikmati teori-teori dan model-model yang elegan atas kepentingan
+          mereka sendiri serta penggunaannya dalam memecahkan masalah teknis dan
+          manusiawi.
         </li>
         <li className="characteristic-point">
-          INTP sangat fleksibel dan sering berpikir “out of the box.”
+          Tertarik pada pemikiran teoritis, analisis, dan pembelajaran.
         </li>
         <li className="characteristic-point">
-          Mereka menyukai sesuatu yang tetap terbuka dan merasa dibatasi oleh
-          sebuah perencanaan.
+          Bersemangat dalam menjelajah, memahami, dan menjelaskan bagaimana
+          dunia ini bekerja.
         </li>
       </ul>
     </div>
@@ -231,26 +240,26 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Orang sering menggambarkan ESTJ sebagai sosok yang berkomitmen dan
-          praktis. Mereka cenderung sangat jujur dalam berbagi pendapat, yang
-          kadang-kadang dianggap keras atau terlalu kritis.
+          ESTJ adalah seorang yang mengawasi, dengan memperhatikan tradisi dan
+          peraturan kelompok.
         </li>
         <li className="characteristic-point">
-          Individu dengan tipe kepribadian ini sangat menjunjung tradisi,
-          aturan, dan keamanan. Mempertahankan status quo penting bagi ESTJ dan
-          mereka sering terlibat dalam pemerintah dan organisasi masyarakat.
+          Bertanggung jawab, pekerja keras, dan efisien.
         </li>
         <li className="characteristic-point">
-          Karena pendekatan ortodoks mereka terhadap kehidupan, mereka
-          kadang-kadang dapat dilihat sebagai orang kaku, keras kepala, dan
-          pantang menyerah. Sikap mengambil alih mereka memudahkan ESTJ untuk
-          mengambil posisi kepemimpinan.
+          Menginginkan agar standar terpenuhi, sumber daya dilestarikan, dan
+          konsekuensi dijalankan.
         </li>
         <li className="characteristic-point">
-          Keyakinan diri dan keyakinan mereka yang kuat membantu mereka unggul
-          dalam menjalankan rencana, tetapi kadang-kadang mereka bisa terlihat
-          kritis dan terlalu agresif, khususnya ketika orang lain gagal memenuhi
-          standar tinggi mereka.
+          Bakatnya terletak pada keteraturan, struktur, dan penyelesaian.
+        </li>
+        <li className="characteristic-point">
+          Ingin menjaga ketertiban agar organisasi, kelompok, keluarga, atau
+          budaya tetap terjaga.
+        </li>
+        <li className="characteristic-point">
+          Bersemangat dalam mengatur dan mengikuti komitmen serta mengajarkan
+          orang lain untuk sukses.
         </li>
       </ul>
     </div>
@@ -259,32 +268,28 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          ESTP tidak memiliki banyak waktu untuk teori atau konsep abstrak.
-          Mereka lebih suka informasi langsung yang dapat mereka pikirkan secara
-          rasional dan segera ditindaklanjuti.
+          ENTP adalah seorang yang bisa menemukan solusi yang cemerlang untuk
+          masalah manusia dan teknis.
         </li>
         <li className="characteristic-point">
-          Ketika dihadapkan dengan masalah, orang-orang dengan tipe kepribadian
-          ini dengan cepat melihat fakta dan mencari solusi segera. Mereka
-          cenderung berimprovisasi daripada menghabiskan banyak waktu untuk
-          merencanakannya.
+          Bakatnya terletak pada pengembangan ide menjadi aplikasi fungsional
+          dan inovatif yang merupakan yang pertama dari jenisnya.
         </li>
         <li className="characteristic-point">
-          Mereka sangat jeli, sering mengambil rincian yang orang lain tidak
-          pernah perhatikan. Orang lain kadang-kadang menggambarkan mereka
-          sebagai “pembicara cepat” yang sangat persuasif. Dalam pengaturan
-          sosial, mereka sering tampak seperti beberapa langkah di depan
-          percakapan.
+          Bersemangat dalam menemukan cara baru untuk menggunakan teori-teori
+          untuk membuat sistem lebih efisien dan membuat orang-orang menjadi
+          lebih baik.
         </li>
         <li className="characteristic-point">
-          Karena sifatnya yang sering mengambil keputusan dengan cepat, ESTP
-          sering dinilai oleh orang-orang sebagai sosok yang gegabah. Padahal
-          mereka bertindak cepat berdasarkan kesan dan logika mereka.
+          Selalu ingin mengerjakan proyek-proyek baru.
         </li>
         <li className="characteristic-point">
-          Orang dengan tipe kepribadian ini bukan seorang perencana. Mereka
-          bereaksi pada saat itu dan seringkali bisa sangat impulsif atau bahkan
-          mengambil risiko.
+          Percaya pada kemampuan mereka untuk secara instan menghasilkan
+          pendekatan baru yang akan berhasil.
+        </li>
+        <li className="characteristic-point">
+          Insinyur hubungan manusia dan sistem serta dalam domain yang lebih
+          ilmiah dan teknologi.
         </li>
       </ul>
     </div>
@@ -293,32 +298,29 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Walaupun mendapatkan kesenangan dari membantu orang lain, ESFJ juga
-          membutuhkan penerimaan yang baik. Mereka mengharapkan kebaikan dan
-          cara mereka untuk diperhatikan dan dihargai oleh orang lain. Mereka
-          peka terhadap kebutuhan dan perasaan orang lain. Mereka juga pandai
-          merespon serta memberikan perawatan yang dibutuhkan orang. Mereka
-          ingin disukai oleh orang lain dan mudah disakiti oleh ketidakpedulian
-          atau penolakan.
+          ESFJ adalah seorang yang menyediakan dan memastikan kebutuhan fisik
+          terpenuhi.
         </li>
         <li className="characteristic-point">
-          Individu dengan tipe kepribadian ini dibesarkan dengan nilai dan
-          standar tinggi sehingga menjadi orang dewasa yang murah hati. ESFJ
-          yang dibesarkan dalam lingkungan yang kurang suportif mungkin memiliki
-          etika yang cenderung menjadi manipulatif dan egois.
+          Bakat terletak pada mendukung orang lain dan menyediakan apa yang
+          mereka butuhkan.
         </li>
         <li className="characteristic-point">
-          ESFJ secara alami pandai untuk memahami orang lain. Mereka adalah
-          pengamat yang cermat dari orang lain dan mahir mendukung potensi
-          terbaik dari seseorang. Karena ESFJ begitu pandai membantu orang lain
-          merasa senang tentang diri mereka sendiri, orang merasa tertarik pada
-          ESFJ.
+          Benar-benar peduli dengan kesejahteraan orang lain, memastikan mereka
+          merasa nyaman dan terlibat.
         </li>
         <li className="characteristic-point">
-          ESFJ juga memiliki keinginan kuat untuk melakukan kontrol atas
-          lingkungan mereka. Pengorganisasian, perencanaan, dan penjadwalan
-          membantu orang dengan tipe kepribadian ini merasa menguasai dunia di
-          sekitar mereka.
+          Menggunakan kemampuan bersosialisasi mereka untuk membina institusi
+          yang sudah mapan.
+        </li>
+        <li className="characteristic-point">
+          Hangat, penuh perhatian, bijaksana, ramah.
+        </li>
+        <li className="characteristic-point">
+          Ingin menyenangkan dan menjaga hubungan yang harmonis.
+        </li>
+        <li className="characteristic-point">
+          Senang membantu orang lain dan menyatukan orang-orang.
         </li>
       </ul>
     </div>
@@ -327,35 +329,27 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          ESFP hidup sangat nyaman di “momen saat ini” dan kadang-kadang gagal
-          memikirkan bagaimana tindakan saat ini akan mengarah pada konsekuensi
-          jangka panjang. Mereka akan sering tergesa-gesa dalam sebuah hal dan
-          mencari tahu saat semuanya sudah terjadi. Mereka juga cenderung tidak
-          menyukai rutinitas. Mereka selalu mencari petualangan dan menikmati
-          pengalaman baru.
+          ESFP adalah seorang berkinerja.
+        </li>
+        <li className="characteristic-point">Hangat, memikat, dan cerdas.</li>
+        <li className="characteristic-point">
+          Ingin memberikan dampak dan membantu orang lain, membangkitkan
+          kesenangan mereka, dan mendorong mereka untuk bertindak.
         </li>
         <li className="characteristic-point">
-          ESFP cenderung sangat praktis dalam banyak hal. Mereka lebih suka
-          belajar melalui pengalaman langsung dan cenderung tidak suka belajar
-          dari buku atau diskusi. Karena itu, siswa dengan tipe kepribadian ESFP
-          kadang-kadang tertekan dalam ruang kelas yang monoton dan membosankan.
-          Namun, mereka unggul dalam situasi di mana mereka diizinkan untuk
-          berinteraksi dengan orang lain atau belajar melalui pengalaman
-          langsung.
+          Ingin membuat perbedaan dan melakukan sesuatu yang bermakna.
         </li>
         <li className="characteristic-point">
-          Karena sifatnya yang terlalu antusias, ESFP sering disindir sebagai
-          pencari perhatian. Padahal mereka hanya suka untuk bersenang-senang
-          dan tidak menghindari sorotan, mereka lebih tertarik pada hidup di
-          masa sekarang (YOLO) dan melakukan apa yang terasa benar pada saat
-          itu.
+          Sering kali mahir dalam memainkan pertunjukan, menghibur, memotivasi,
+          dan mempresentasikan.
         </li>
         <li className="characteristic-point">
-          Selain memiliki kesadaran yang kuat tentang lingkungan mereka, mereka
-          juga sangat pengertian dan tanggap ketika orang curhat dengannya.
-          Mereka dapat merasakan apa yang orang lain rasakan dan tahu
-          bagaimanacaranya merespon. Orang menganggap mereka sosok yang
-          simpatik, hangat, dan santai.
+          Berkembang dalam interaksi sosial, kehidupan yang menyenangkan, dan
+          tantangan yang tidak diketahui.
+        </li>
+        <li className="characteristic-point">
+          Suka membantu orang lain mendapatkan apa yang mereka inginkan dan
+          butuhkan, memfasilitasi mereka untuk mendapatkan hasil.
         </li>
       </ul>
     </div>
@@ -364,25 +358,27 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          ENFJ memiliki jiwa ekstrovert yang kuat, mereka sangat menikmati
-          menghabiskan waktu bersama orang lain. Mereka dipandang oleh orang
-          lain sebagai sosok yang hangat, penuh kasih sayang dan suportif.
+          ENFJ adalah seorang yang membimbing dan memimpin orang-orang untuk
+          mencapai potensi mereka dan menjadi lebih dari diri mereka sendiri.
         </li>
         <li className="characteristic-point">
-          Terkadang ENFJ terlalu sering untuk mencurahkan waktu mereka untuk
-          orang lain sampai mereka mengabaikan diri sendiri. Mereka juga
-          memiliki kecenderungan untuk terlalu keras pada diri mereka sendiri,
-          menyalahkan diri sendiri ketika ada masalah dan tidak memberi diri
-          mereka cukup pujian ketika semuanya berjalan dengan sukses.
+          Bakatnya terletak pada kemampuan berempati dengan wawasan
+          interpersonal yang mendalam dan mempengaruhi orang lain untuk belajar,
+          tumbuh, dan berkembang.
         </li>
         <li className="characteristic-point">
-          Mereka pandai mencari jalan tengah di banyak perdebatan. Karena hal
-          ini lah, mereka dapat menjadi pemimpin yang luar biasa dan membawa
-          antusiasme kepada kelompok untuk memotivasi dan memberi inspirasi.
+          Memimpin dengan menggunakan kemampuan komunikasi, antusiasme, dan
+          kehangatan yang luar biasa untuk mendapatkan kerja sama dalam mencapai
+          cita-cita yang mereka pegang baik untuk individu maupun organisasi.
         </li>
         <li className="characteristic-point">
-          Meski terlihat sangat mencintai orang, ENFJ perlu belajar untuk
-          mencintai diri sendiri dan mencari waktu untuk sendirian.
+          Katalisator yang mengeluarkan yang terbaik dari orang lain.
+        </li>
+        <li className="characteristic-point">
+          Berkembang dengan koneksi yang empatik.
+        </li>
+        <li className="characteristic-point">
+          Sering dipanggil untuk membantu orang lain dengan masalah pribadi.
         </li>
       </ul>
     </div>
@@ -391,29 +387,28 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Orang-orang dengan tipe kepribadian ini sangat tidak menyukai
-          rutinitas dan lebih suka berfokus pada masa depan. Meskipun mereka
-          hebat dalam menghasilkan ide-ide baru, mereka terkadang menunda
-          tugas-tugas penting hingga menit terakhir. Memimpikan ide tetapi tidak
-          menyelesaikannya sampai selesai adalah masalah klasik.
+          ENFP adalah seorang yang inspiratif, baik bagi diri mereka sendiri
+          maupun orang lain.
         </li>
         <li className="characteristic-point">
-          ENFP memiliki keterampilan orang yang unggul. Selain memiliki
-          antusiasme yang berlimpah, mereka juga benar-benar peduli pada orang
-          lain. ENFP pandai memahami apa yang orang lain rasakan. Dengan
-          semangat, karisma, dan kreativitas mereka, mereka juga bisa menjadi
-          pemimpin yang hebat.
+          Bakat mereka terletak pada kemampuan menangkap makna yang mendalam,
+          mengungkapkan kebenaran, dan memotivasi orang lain.
         </li>
         <li className="characteristic-point">
-          ENFP dapat dengan mudah terganggu atau terdistraksi, terutama ketika
-          mereka mengerjakan sesuatu yang tampaknya membosankan atau tidak
-          menginspirasi.
+          Sangat peka terhadap motif dan tujuan tersembunyi orang lain.
         </li>
         <li className="characteristic-point">
-          ENFP fleksibel dan suka membiarkan opsi mereka tetap terbuka. Mereka
-          bisa spontan dan sangat mudah beradaptasi dengan perubahan. Mereka
-          juga tidak menyukai rutinitas dan mungkin memiliki masalah dengan
-          disorganisasi dan penundaan.
+          Tertarik pada segala hal tentang individu dan kisah mereka selama itu
+          sungguh-sungguh.
+        </li>
+        <li className="characteristic-point">
+          Antusiasme yang menular terhadap "tujuan" yang memajukan kebaikan dan
+          mengembangkan potensi laten serta semangat yang sama untuk
+          mengungkapkan ketidakjujuran dan ketidakotentikan.
+        </li>
+        <li className="characteristic-point">
+          Seringkali terdorong untuk dengan antusiasme menyampaikan "pesan"
+          mereka.
         </li>
       </ul>
     </div>
@@ -422,28 +417,27 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Mereka lebih bersemangat ketika menghabiskan banyak waktu bersama
-          orang lain. Memiliki kemampuan berbicara yang handal dan cakap dalam
-          berinteraksi dengan orang banyak.
+          ENTJ adalah seorang yang mengarahkan dan memobilisasi.
         </li>
         <li className="characteristic-point">
-          ENTJ suka membuat jadwal atau tindakan yang terencana dengan jelas
-          karena memberikan mereka rasa tenang jika sesuatu dapat diprediksi dan
-          dikontrol.
+          Bakatnya terletak pada pengembangan kebijakan, pembuatan rencana,
+          koordinasi dan pengurutan acara, serta penerapan strategi.
         </li>
         <li className="characteristic-point">
-          Saat memutuskan sesuatu, mereka menekankan pada informasi yang
-          objektif dan logis. Emosi orang lain atau perasaan pribadi jarang
-          mempengaruhi keputusan mereka.
+          Unggul dalam mengarahkan orang lain dalam mencapai tujuan yang
+          ditentukan oleh visi mereka yang kuat tentang organisasi.
         </li>
         <li className="characteristic-point">
-          Tipe kepribadian ENTJ lebih suka memikirkan masa kini dan lebih
-          tertarik dengan informasi abstrak dibanding detail konkret.
+          Berkembang dalam menggalang kekuatan untuk mewujudkan rencana menjadi
+          tindakan.
         </li>
         <li className="characteristic-point">
-          Mereka sering menyembunyikan emosi dan sentimentalitas mereka sendiri,
-          karena bagi mereka hal tersebut adalah sebuah kelemahan yang tidak
-          boleh diketahui pihak lain.
+          Pembangun organisasi yang alami dan hampir selalu menemukan diri
+          mereka bertanggung jawab dalam situasi yang tidak efektif.
+        </li>
+        <li className="characteristic-point">
+          Senang menciptakan sistem yang terstruktur secara efisien dan
+          menetapkan prioritas untuk mencapai tujuan.
         </li>
       </ul>
     </div>
@@ -452,25 +446,28 @@ const descTypes = {
     <div>
       <ul className="characteristic-points">
         <li className="characteristic-point">
-          Mereka lebih fokus pada masa depan daripada pada saat ini. Mereka
-          sering memulai proyek tetapi jarang menyelesaikannya karena mereka
-          begitu fokus pada gambaran besar daripada kebutuhan saat ini.
+          ENTP adalah seorang yang bisa menemukan solusi yang cemerlang untuk
+          masalah manusia dan teknis.
         </li>
         <li className="characteristic-point">
-          ENTP senang berinteraksi dengan berbagai tipe orang. Mereka adalah
-          pembicara handal dan suka melibatkan orang lain dalam perdebatan yang
-          cerdas.
+          Bakatnya terletak pada pengembangan ide menjadi aplikasi fungsional
+          dan inovatif yang merupakan yang pertama dari jenisnya.
         </li>
         <li className="characteristic-point">
-          Sifat keingintahuan mereka tinggi untuk memahami dunia di sekitar
-          mereka. Mereka terus-menerus mencerna informasi dan ide-ide baru
-          dengan cepat dalam menghasilkan kesimpulan. Mereka mampu memahami
-          hal-hal baru dengan cukup cepat.
+          Bersemangat dalam menemukan cara baru untuk menggunakan teori-teori
+          untuk membuat sistem lebih efisien dan membuat orang-orang menjadi
+          lebih baik.
         </li>
         <li className="characteristic-point">
-          Seorang ENTP menikmati debat sebagai cara mengeksplorasi suatu topik,
-          mempelajari apa yang orang lain yakini, dan membantu orang lain
-          melihat sisi lain dari cerita tersebut.
+          Selalu ingin mengerjakan proyek-proyek baru.
+        </li>
+        <li className="characteristic-point">
+          Percaya pada kemampuan mereka untuk secara instan menghasilkan
+          pendekatan baru yang akan berhasil.
+        </li>
+        <li className="characteristic-point">
+          Insinyur hubungan manusia dan sistem serta dalam domain yang lebih
+          ilmiah dan teknologi.
         </li>
       </ul>
     </div>

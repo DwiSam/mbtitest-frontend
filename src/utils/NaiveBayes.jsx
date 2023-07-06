@@ -35,6 +35,7 @@ export function calculateMBTIResult(selectedAnswers) {
     J: MBTIOptions.J / totalQuestions,
     P: MBTIOptions.P / totalQuestions,
   };
+  console.log("Probabilitas kategori MBTI:", MBTIProbabilities);
 
   // Menghitung nilai posterior probability untuk setiap kategori MBTI
   const MBTIScores = {
@@ -135,12 +136,13 @@ export function calculateMBTIResult(selectedAnswers) {
       "J",
     ]),
   };
+  console.log("Nilai posterior probability:", MBTIScores);
 
   // Menentukan hasil MBTI berdasarkan nilai posterior probability terbesar
   const result = Object.keys(MBTIScores).reduce((a, b) =>
     MBTIScores[a] > MBTIScores[b] ? a : b
   );
-
+  console.log(result);
   return result;
 }
 
@@ -152,13 +154,3 @@ function calculatePosteriorProbability(MBTIProbabilities, categories) {
   }
   return score;
 }
-
-//P(A|B) = (P(B|A) * P(A)) / P(B)
-
-//Keterangan :
-// B      : Data dengan class yang belum diketahui
-// A      : Hipotesis data merupakan suatu class spesifik
-// P(A|B) : Probabilitas hipotesis A berdasar kondisi B (Hasil yang dicari) => MBTIScores
-// P(A)   : Probabilitas hipotesis H (Bobot Bayes) => probabilitas kategori
-// P(B|A) : Probabilitas B berdasarkan kondisi pada hipotesis A => posterior probability
-// P(B)   : Probabilitas B (Jumlah Gejala) => totalQuestions
